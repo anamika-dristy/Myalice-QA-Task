@@ -1,1 +1,0 @@
-# Myalice-QA-Task
