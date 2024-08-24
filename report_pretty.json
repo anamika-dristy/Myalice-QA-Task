@@ -1,0 +1,82 @@
+[
+    {
+        "Test case": "Login Page Test",
+        "Test scenario": "Verify that the login page is displayed",
+        "Input": "https://myalice-automation-test.netlify.app/",
+        "Expected result": "Login page should display successfully",
+        "Actual result": "Login page is display successfully",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Login Test",
+        "Test scenario": "Verify that the user is redirected to the manga search page",
+        "Input": "username: testuser, password: password",
+        "Expected result": "User should redirected to the manga search page",
+        "Actual result": "User is redirected to the manga search page",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Search Test - Naruto",
+        "Test scenario": "Verify that manga cards with the name Naruto are displayed",
+        "Input": "Naruto",
+        "Expected result": "Manga cards should display the name Naruto.",
+        "Actual result": "Manga cards with the name Naruto are displayed",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Search Test - One Piece",
+        "Test scenario": "Verify that manga cards with the name One Piece are displayed",
+        "Input": "One Piece",
+        "Expected result": "Manga cards should display the name One Piece.",
+        "Actual result": "Manga cards with the name One Piece are displayed",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Search Test - Seven Deadly Sins",
+        "Test scenario": "Verify that no results are found for Seven Deadly Sins and displays 'No manga found'.",
+        "Input": "Seven Deadly Sins",
+        "Expected result": "Manga cards should display 'No manga found' when searching for Seven Deadly Sins.",
+        "Actual result": "No manga found message is displayed",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Manga search page",
+        "Test scenario": "Ensure the user is on the manga search page",
+        "Input": "Back to Manga search page",
+        "Expected result": "User should be on the manga search page.",
+        "Actual result": "User is on the manga search page",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Manga Image Display Test",
+        "Test scenario": "Verify that the manga image is displayed in the modal",
+        "Input": "Click on 'Details' and check for the image",
+        "Expected result": "Manga image should be displayed",
+        "Actual result": "Manga image is displayed",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Manga Name Display Test",
+        "Test scenario": "Verify that the manga name is 'Attack on Titan' in the modal",
+        "Input": "Click on 'Details' and check for the name",
+        "Expected result": "Manga name should be 'Attack on Titan'",
+        "Actual result": "Expected 'Attack on Titan', but got 'Naruto'",
+        "Status": "Failed"
+    },
+    {
+        "Test case": "Manga Summary Display Test",
+        "Test scenario": "Verify that the manga summary is displayed in the modal",
+        "Input": "Click on 'Details' and check for the summary",
+        "Expected result": "Manga summary should be displayed",
+        "Actual result": "Manga summary is displayed",
+        "Status": "Passed"
+    },
+    {
+        "Test case": "Manga Details Modal Test",
+        "Test scenario": "Verify that the manga details modal appears with correct information and can be closed",
+        "Input": "Click on 'Close'",
+        "Expected result": "Modal displays correct manga information and can be closed",
+        "Actual result": "Modal displayed correct information and closed successfully",
+        "Status": "Passed"
+    }
+]
